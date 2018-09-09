@@ -10,6 +10,7 @@
 
 <script>
   import PortfolioItem from '@/components/PortfolioItem'
+  import Modal from '@/components/Modal'
     export default {
         name: "Portfolio",
         data(){
@@ -18,7 +19,9 @@
             details: 'See some of my work'
           }
         },
-      components: PortfolioItem
+      components: {
+        PortfolioItem
+      }
     }
 </script>
 

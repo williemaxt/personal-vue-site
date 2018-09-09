@@ -1,8 +1,8 @@
 <template>
   <ul>
     <li>
-      <h1>Front-End</h1>
-      <img src="../assets/front-end.svg" alt="">
+      <h1>Back-End</h1>
+      <img src="../assets/backend.svg" alt="">
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
     </li>
     <li>
@@ -11,8 +11,63 @@
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
     </li>
     <li>
-      <h1>Mobile</h1>
-      <img src="../assets/mobile-app.svg" alt="">
+      <h1>Back-End</h1>
+      <img src="../assets/backend.svg" alt="">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </li>
+    <li>
+      <h1>Back-End</h1>
+      <img src="../assets/backend.svg" alt="">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </li>
+    <li>
+      <h1>Back-End</h1>
+      <img src="../assets/backend.svg" alt="">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </li>
+    <li>
+      <h1>Back-End</h1>
+      <img src="../assets/backend.svg" alt="">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </li>
+    <li>
+      <h1>Back-End</h1>
+      <img src="../assets/backend.svg" alt="">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </li>
+    <li>
+      <h1>Back-End</h1>
+      <img src="../assets/backend.svg" alt="">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </li>
+    <li>
+      <h1>Back-End</h1>
+      <img src="../assets/backend.svg" alt="">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </li>
+    <li>
+      <h1>Back-End</h1>
+      <img src="../assets/backend.svg" alt="">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </li>
+    <li>
+      <h1>Back-End</h1>
+      <img src="../assets/backend.svg" alt="">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </li>
+    <li>
+      <h1>Back-End</h1>
+      <img src="../assets/backend.svg" alt="">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </li>
+    <li>
+      <h1>Back-End</h1>
+      <img src="../assets/backend.svg" alt="">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </li>
+    <li>
+      <h1>Back-End</h1>
+      <img src="../assets/backend.svg" alt="">
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
     </li>
   </ul>
@@ -20,7 +75,7 @@
 
 <script>
     export default {
-        name: "PortfolioItem"
+        name: 'PortfolioItem'
     }
 </script>
 
@@ -43,17 +98,18 @@ ul{
     box-shadow: 0 0 10px #333;
     margin-left:10px;
     margin-right: 10px;
+    margin-bottom: 20px;
     padding-bottom: 20px;
     border-radius: 3px;
     background: #ffffff;
   }
   li h1{
-    background: #2e8b57;
-    color: #ffffff;
+    color: #2e8b57;
     margin: 0;
     font-size: 3em;
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
+    border-bottom: #333 2px solid;
   }
   li p{
     width: 90%;
