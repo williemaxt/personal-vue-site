@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # personal
 
 > A personal site for me as a developer
@@ -28,3 +29,6 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# personal-vue-site
+>>>>>>> 3bc2f182641ef58ba96373629d85ae64ee7b7317
