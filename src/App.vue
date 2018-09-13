@@ -52,13 +52,23 @@ export default {
   body{
     margin: 0;
     margin-left: 60px;
-    background: url("../src/assets/grey-triangle.svg");
+    background: #fff;
+  /*  background: url("../src/assets/grey-triangle.svg");
     background-size: cover;
+    */
   }
   nav li img{
     width: 60%;
     height: auto;
     display: block;
     margin: 0 auto;
+  }
+  @media screen and (max-width: 440px){
+    nav{
+      width: 40px;
+    }
+    body{
+      margin-left: 0;
+    }
   }
 </style>

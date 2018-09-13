@@ -4,7 +4,9 @@
       <h1>{{title}}</h1>
       <h3>{{details}}</h3>
     </section>
-    <PortfolioItem></PortfolioItem>
+    <ul>
+      <PortfolioItem></PortfolioItem>
+    </ul>
   </div>
 </template>
 
@@ -40,5 +42,25 @@
   }
   h3{
     font-size: 2em;
+  }
+  @media screen and (max-width: 750px){
+    h1{
+      font-size: 8em;
+    }
+  }
+  @media screen and (max-width: 620px){
+    h1{
+      font-size: 5em;
+    }
+  }
+  @media screen and (max-width: 470px){
+    h1{
+      font-size: 3em;
+      margin-left: 40px;
+    }
+    h3{
+      font-size: 1.5em;
+      margin-left: 40px;
+    }
   }
 </style>

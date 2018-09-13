@@ -7,8 +7,8 @@
         <h3>{{panel.explanation}}</h3>
         <h2>{{panel.stack}}</h2>
       </aside>
-      <div class="rightImg">
-        <img src="../assets/coding.svg" alt="">
+      <div class="rightImg" :id="panel.titleImage">
+
       </div>
     </section>
   </main>
@@ -22,31 +22,31 @@
             panels:[
               {
                 title: 'Front-End',
-                titleImage: '../assets/browser.svg',
+                titleImage: 'front-end',
                 explanation: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
                 stack: 'HTML5, CSS3, JavaScript, Vue.js',
               },
               {
                 title: 'Back-End',
-                titleImage: 'front-end.svg',
+                titleImage: 'back-end',
                 explanation: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
                 stack: 'PHP, Node.js',
               },
               {
                 title: 'Mobile',
-                titleImage: 'front-end.svg',
+                titleImage: 'mobile',
                 explanation: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
                 stack: 'Android, Cordova',
               },
               {
                 title: 'Desktop & Terminal',
-                titleImage: 'front-end.svg',
+                titleImage: 'desktop',
                 explanation: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
                 stack: 'JavaFx, Electron, Java, Python',
               },
               {
                 title: 'Editors & IDEs',
-                titleImage: 'front-end.svg',
+                titleImage: 'editors',
                 explanation: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
                 stack: 'Sublime, ATOM, PhpStorm, WebStorm, IntelliJ, PyCharm',
               }
@@ -96,5 +96,25 @@
     background: #ffffff;
     padding: 10px;
     border-radius: 50%;
+  }
+  .rightImg{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #front-end{
+    background: url(../assets/coding.svg);
+  }
+  #back-end{
+    background: url(../assets/web-design.svg);
+  }
+  #mobile{
+    background: url(../assets/smartphone.svg);
+  }
+  #desktop{
+    background: url(../assets/code-terminal.svg);
+  }
+  #editors{
+    background: url(../assets/browser.svg);
   }
 </style>
